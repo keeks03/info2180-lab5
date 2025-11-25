@@ -1,1 +1,48 @@
-/* Add your own styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background: #f5f5f5;
+}
+
+h1 {
+    color: #333;
+}
+
+#controls {
+    margin-bottom: 20px;
+}
+
+#controls input {
+    padding: 8px;
+    width: 250px;
+}
+
+#controls button {
+    padding: 8px 12px;
+    margin-left: 5px;
+    background-color: #3a7ce8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#controls button:hover {
+    background-color: #1257c0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    background: white;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #3a7ce8;
+    color: white;
+}
